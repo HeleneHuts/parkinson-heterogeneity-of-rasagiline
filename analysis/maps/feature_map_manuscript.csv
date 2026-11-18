@@ -1,0 +1,58 @@
+feature_code,feature_text,feature_text_unit,model_flag,table_one_flag,table_one_type,all_flag
+AGE,Age,Age (years),model,table_one,continuous,all
+male_num,Male sex,Male sex,model,,,all
+sex_fac,Sex,Sex,,table_one,categorical,all
+region_asia,Region Asia,Region Asia,model,,,all
+region_north_america,Region North America,Region North America,model,,,all
+region_middle_east,Region Middle East,Region Middle East,model,,,all
+region_south_america,Region South America,Region South America,model,,,all
+region_fac,Region,Region,,table_one,categorical,all
+ALB,Albumin,Albumin (g/L),model,table_one,continuous,all
+ALT,Alanine aminotransferase,Alanine aminotransferase (U/L),model,table_one,continuous,all
+AST,Aspartate aminotransferase,Aspartate aminotransferase (U/L),model,table_one,continuous,all
+BASO,Basophils,Basophils (10^9/L),model,table_one,continuous,all
+BILI,Bilirubin,Bilirubin (umol/L),model,table_one,continuous,all
+CA,Calcium,Calcium (mmol/L),model,table_one,continuous,all
+CHOL,Cholesterol,Cholesterol (mmol/L),model,table_one,continuous,all
+CL,Chloride,Chloride (mmol/L),model,table_one,continuous,all
+CREAT,Creatinine,Creatinine (umol/L),model,table_one,continuous,all
+EOS,Eosinophils,Eosinophils (10^9/L),model,table_one,continuous,all
+GGT,Gamma glutamyl transferase,Gamma glutamyl transferase (U/L),model,table_one,continuous,all
+GLUC_num,Glucose,Glucose,model,,,all
+GLUC_fac,Glucose,Glucose,,table_one,categorical,all
+HGB,Hemoglobin,Hemoglobin (g/L),model,table_one,continuous,all
+K,Potassium,Potassium (mmol/L),model,table_one,continuous,all
+LDH,Lactate dehydrogenase,Lactate dehydrogenase (U/L),model,table_one,continuous,all
+LYM,Lymphocytes,Lymphocytes (10^9/L),model,table_one,continuous,all
+MONO,Monocytes,Monocytes (10^9/L),model,table_one,continuous,all
+NEUT,Neutrophils,Neutrophils (10^9/L),model,table_one,continuous,all
+PHOS,Phosphate,Phosphate (mmol/L),model,table_one,continuous,all
+PLAT,Platelets,Platelets (10^9/L),model,table_one,continuous,all
+PROT,Protein,Protein (g/L),model,table_one,continuous,all
+UREAN,Urea nitrogen,Urea nitrogen (mmol/L),model,table_one,continuous,all
+UPD143,Modified Hoehn and Yahr stage,Modified Hoehn and Yahr stage,model,table_one,continuous,all
+MDS_UPDRS1_total_w0_o,MDS-UPDRS part 1 total score,MDS-UPDRS part 1 total score,model,table_one,continuous,all
+MDS_UPDRS2_total_w0_o,MDS-UPDRS part 2 total score,MDS-UPDRS part 2 total score,model,table_one,continuous,all
+MDS_UPDRS3_total_w0_o,MDS-UPDRS part 3 total score,MDS-UPDRS part 3 total score,model,table_one,continuous,all
+td_pigd_num,TD/PIGD phenotype,TD/PIGD phenotype,model,,,all
+td_pigd_fac,TD/PIGD phenotype,TD/PIGD phenotype,,table_one,categorical,all
+asymmetry,Standardized motor asymmetry score,Standardized motor asymmetry score,model,table_one,continuous,all
+BP_mean,Mean blood pressure,Mean blood pressure (mmHg),model,table_one,continuous,all
+WEIGHT,Weight,Weight (kg),model,table_one,continuous,all
+PDDUR,PD puration before enrolment,PD duration before enrolment (years),model,table_one,continuous,all
+concomitant_medications,Overall number of concomitant medications,Overall number of concomitant medications,model,table_one,continuous,all
+INTP_num,ECG interpretation,ECG interpretation,model,,,all
+INTP_fac,ECG interpretation,ECG interpretation,,table_one,categorical,all
+PRAG,"PR interval, aggregate","PR interval, aggregate (ms)",model,table_one,continuous,all
+QRSAG,"QRS duration, aggregate","QRS duration, aggregate (ms)",model,table_one,continuous,all
+QTAG,"QT interval, aggregate","QT interval, aggregate (ms)",model,table_one,continuous,all
+QTCBAG,"QTcB interval, aggregate","QTcB interval, aggregate (ms)",model,table_one,continuous,all
+dopamine_agonists,Concomitant dopamine agonists,Concomitant dopamine agonists,model,table_one,categorical,all
+COMT_inhibitors,Concomitant COMT inhibitors,Concomitant COMT inhibitors,model,table_one,categorical,all
+amantadine,Concomitant amantadine,Concomitant amantadine,model,table_one,categorical,all
+anticholinergics,Concomitant anticholinergics,Concomitant anticholinergics,model,table_one,categorical,all
+droxidopa,Concomitant droxidopa,Concomitant droxidopa,model,table_one,categorical,all
+istradefylline,Concomitant istradefylline,Concomitant istradefylline,model,table_one,categorical,all
+zonisamide,Concomitant zonisamide,Concomitant zonisamide,model,table_one,categorical,all
+carbidopa,Concomitant carbidopa,Concomitant carbidopa,model,table_one,categorical,all
+levodopa,Concomitant levodopa,Concomitant levodopa,model,table_one,categorical,all
